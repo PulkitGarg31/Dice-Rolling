@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Rolling Program</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dice Rolling Program</h1>
+    <div class="input-container">
+      <label for="dice-count">Enter number of dice:</label>
+      <input type="number" id="dice-count" min="1" max="10" value="1">
+    </div>
+    <div class="dice-container" id="dice-container"></div>
+    <button class="btn" onclick="rollDice()">Roll Dice</button>
+    <h3 id="showsum"> </h3>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+ 
